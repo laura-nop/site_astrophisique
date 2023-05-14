@@ -1,0 +1,25 @@
+
+body {
+    background-color: goldenrod
+}
+div{
+    width:fit-content;
+    color:rgb(255, 0, 0);
+    border-radius: 4px 4px 4px 4px;
+    border-color :rgb(255, 40, 0);
+    border-style :dashed;
+    margin-bottom: 25px;
+}
+
+
+texte_brats {
+    width:fit-content;
+    color:rgb(255, 0, 0);
+    border-radius: 4px 4px 4px 4px;
+    border-color :rgb(255, 40, 0);
+    border-style :dashed;
+    left: 100px;
+    margin-top : 100px;
+    margin-left: 100px;
+    padding: 1px 5px 2px 5px;
+}
