@@ -1,8 +1,8 @@
-nav ul li{
+.deroulant{
 	float: left;
 	width:25%;
 	text-align: center;
 }
-nav ul li ul li a{
-margin-top: 10%;
+.sous{
+	color: rgb(50,50,50);
 }
