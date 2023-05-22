@@ -1,6 +1,6 @@
 
 body {
-    background-color: goldenrod
+    background-color: #f6f6f6 
 }
 div{
     width:fit-content;
@@ -10,7 +10,6 @@ div{
     border-style :dashed;
     margin-bottom: 25px;
 }
-
 texte_brats {
     width:fit-content;
     color:rgb(255, 0, 0);
@@ -21,4 +20,13 @@ texte_brats {
     margin-top : 100px;
     margin-left: 100px;
     padding: 1px 5px 2px 5px;
+}
+
+.deroulant{
+	float: left;
+	width:25%;
+	text-align: center;
+}
+.sous{
+	color: rgb(50,50,50);
 }
