@@ -1,0 +1,403 @@
+<!DOCTYPE HTML>
+<html lang="fr-FR">
+	<head>
+		<meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+		<title>QCM_PhotoNum</title>
+		<meta name="author" content="SNBA" />
+		<link type="text/css" href="style.css" rel="stylesheet"/>
+		<script type="text/javascript" src="main.js" ></script>
+	</head>
+	<body>
+		<div class="contener">
+			<form id="formulaire" method="POST" action="valider.php">
+				<fieldset class="inscription"><legend>Inscription</legend>
+					<table>
+						<tr>
+							<td><label for="nom" >Nom</label></td>
+							<td><input id="nom" name="nom" type="text" class="required"/></td>
+						</tr>
+						<tr>
+							<td><label for="prenom" >Prenom</label></td>
+							<td><input id="prenom" name="prenom" type="text" class="required"/></td>
+						</tr>
+						<tr>
+							<td><label for="classe" class="required">Classe</label></td>
+                                                        <td>
+								<select id="niveau" name="classe" class="required">
+									<option value="" selected="selected">Choisir votre classe</option>
+									<option value="2E5">2-GT5</option>
+								
+								</select>
+
+							
+						</tr>						
+						<tr>
+							<td><label for="niveau" class="required">Niveau</label></td>
+							<td>
+								<select id="niveau" name="niveau" class="required">
+									<option value="" selected="selected">Choisir un niveau</option>
+									<option value="SNT">SNT</option>
+							
+								</select>
+							</td>
+						</tr>				
+					</table>
+				</fieldset>
+				<fieldset>
+					<legend>Présentation du thème du QCM</legend>
+					<div>Sujet rattrapage : 20 QCMs : "La photographie numérique" </div>
+				</fieldset>
+
+
+
+                                <fieldset>
+
+					<legend>Question 1</legend>
+					<div class="question">
+						<p id="question1">la résolution d'une image est : </p>
+						<ul>
+							<li><label><input type="radio" name="Q1" value="A">A.le rapport  de la largeur sur les dimensions de l'image</label></li>
+							<li><label><input type="radio" name="Q1" value="B">B.le rapport  de la hauteur sur les dimensions de l'image</label></li>
+							<li><label><input type="radio" name="Q1" value="C">C.le rapport  de la définition sur les dimensions de l'image</label></li>				
+							<li><label><input type="radio" name="Q1" value="D">D.le rapport  de la diagonale sur les dimensions de l'image</label></li>
+						</ul>
+					</div>
+				</fieldset>
+                                <fieldset>
+
+					<legend>Question 2</legend>
+					<div class="question">		
+						<p id="question2">Une photographie numérique sur smartphone est une image :</p>
+						<ul>
+							<li><label><input type="radio" name="Q2" value="A">A.pixelisée</label></li>
+							<li><label><input type="radio" name="Q2" value="B">B.vectorielle</label></li>
+							<li><label><input type="radio" name="Q2" value="C">C.analogique</label></li>				
+							<li><label><input type="radio" name="Q2" value="D">D.dessinée</label></li>
+						</ul>
+					</div>
+				</fieldset>
+                                <fieldset>
+
+					<legend>Question 3</legend>
+					<div class="question">		
+						<p id="question3">Pour une image RGB, sur combien de bits est codé un pixel :</p>
+						<!-- Utilisation de la balise pre (preformater) qui permet d'afficher le texte sans interpretation de l'html 
+                                                     et donc avec tabulation et saut de ligne -->
+						
+							
+							<div class="right50">
+								<ul>
+									<li><label><input type="radio" name="Q3" value="A">A.8 bits</label></li>
+									<li><label><input type="radio" name="Q3" value="B">B.16 bits</label></li>
+									<li><label><input type="radio" name="Q3" value="C">C.24 bits</label></li>				
+									<li><label><input type="radio" name="Q3" value="D">D.32 bits</label></li>
+								</ul>
+							</div>
+						
+					</div>
+				</fieldset>
+                                <fieldset>
+					 <legend>Question 4</legend>
+					<div class="question">		
+						<p id="question4">En synthèse additive, un mélange de vert et rouge donne :</p>
+						
+							
+					<div class="right50">
+						<ul>
+							<li><label><input type="radio" name="Q4" value="A">A.cyan</label></li>
+							<li><label><input type="radio" name="Q4" value="B">B.jaune</label></li>
+							<li><label><input type="radio" name="Q4" value="C">C.magenta</label></li>				
+							<li><label><input type="radio" name="Q4" value="D">D.violet</label></li>
+						</ul>
+					</div>
+						
+					</div>
+				</fieldset>
+                                <fieldset>
+					<legend>Question 5</legend>
+					<div class="question">		
+						<p id="question5">Quel type de métadonnées donne des informations sur la prise de vue (modèle, marque appareil, vitesse d'obturation, diaphragme,etc...)</p>
+						
+							
+							<div class="right50">
+						<ul>
+							<li><label><input type="radio" name="Q5" value="A">A.IPTIC </label></li>
+							<li><label><input type="radio" name="Q5" value="B">B.XMP</label></li>
+							<li><label><input type="radio" name="Q5" value="C">C.EXIF</label></li>				
+							<li><label><input type="radio" name="Q5" value="D">D.XML</label></li>
+						</ul>
+                                                        </div>
+					</div>
+				</fieldset>
+                                <fieldset>
+					<legend>Question 6</legend>
+					<div class="question">		
+						<p id="question6">Les informations autres que l'image contenue dans une photo sont :</p>
+						
+							<div class="right50">
+						<ul>
+							<li><label><input type="radio" name="Q6" value="A">A. Les Mégapixels</label></li>
+							<li><label><input type="radio" name="Q6" value="B">B. Les propriétés</label></li>
+							<li><label><input type="radio" name="Q6" value="C">C. Les métadonnées</label></li>				
+							<li><label><input type="radio" name="Q6" value="D">D. La mémoire image</label></li>
+		                                </ul>
+                                                         </div>
+
+					</div>
+				</fieldset>
+                                <fieldset>
+					<legend>Question 7</legend>
+					<div class="question">		
+						<p id="question7">Quels procédés peuvent utiliser les photographes pour protéger leurs images sur la toile ?</p>
+													
+							<div class="right50">
+						<ul>
+							<li><label><input type="radio" name="Q7" value="A">A.le watermarks</label></li>
+							<li><label><input type="radio" name="Q7" value="B">B.la mention DR</label></li>
+							<li><label><input type="radio" name="Q7" value="C">C.un contrat de cession de droits</label></li>				
+							<li><label><input type="radio" name="Q7" value="D">D.un arrondi sur l'image</label></li>
+						</ul>
+                                                        </div>
+
+					</div>
+				 </fieldset>
+
+                                  <fieldset>
+					<legend>Question 8</legend>
+					<div class="question">		
+						<p id="question8">Pour voir un objet proche, le cristallin de l'oeil a une forme :</p>
+						
+							
+							<div class="right50">
+						<ul>
+							<li><label><input type="radio" name="Q8" value="A">A.aplati</label></li>
+							<li><label><input type="radio" name="Q8" value="B">B.biconcave</label></li>
+							<li><label><input type="radio" name="Q8" value="C">C.biconvexe</label></li>				
+							<li><label><input type="radio" name="Q8" value="D">D.sphérique</label></li>
+						</ul>
+                                                        </div>
+					</div>
+ 				</fieldset>
+				<fieldset>
+					<legend>Programme Python :</legend>
+					    <img src="DsProgramme.png"  alt="programme image" width="900" height="auto">
+				</fieldset>
+                                <fieldset>
+					<legend>Question 9</legend>
+					<div class="question">		
+						<p id="question9">Dans le programme ci-dessus, la ligne 3 permet :</p>
+						
+							
+							<div class="right50">
+						<ul>
+							<li><label><input type="radio" name="Q9" value="A">A.d'afficher l'image img à l'écran</label></li>
+							<li><label><input type="radio" name="Q9" value="B">B.de modifier l'image img</label></li>
+							<li><label><input type="radio" name="Q9" value="C">C.de récupérer les dimensions de l'image img</label></li>				
+							<li><label><input type="radio" name="Q9" value="D">D.de sauvegarder l'image img</label></li>
+						</ul>
+                                                        </div>
+					</div>
+				 </fieldset>
+
+                                 <fieldset>
+					<legend>Question 10</legend>
+					<div class="question">		
+						<p id="question10"> A la ligne 6, la valeur de la variable tailleDiag sont exprimées en :</p>
+						<ul>
+							<li><label><input type="radio" name="Q10" value="A">A.En mm</label></li>
+							<li><label><input type="radio" name="Q10" value="B">B.En cm</label></li>
+							<li><label><input type="radio" name="Q10" value="C">C.En pixel</label></li>				
+							<li><label><input type="radio" name="Q10" value="D">D.En pouce </label></li>
+						</ul>
+					</div>
+				</fieldset>
+
+
+
+                                 <fieldset>
+ 					<legend>Question 11</legend>
+					<div class="question">		
+						<p id="question11">A la ligne 14, à quoi sert la méthode show() ?</p>
+						<!-- Utilisation de la balise pre (preformater) qui permet d'afficher le texte sans interpretation de l'html 
+                                                     et donc avec tabulation et saut de ligne -->
+						<div>
+							
+							<div class="right50">
+								<ul>
+									<li><label><input type="radio" name="Q11" value="A">A.Elle enregistre l'image img</label></li>
+									<li><label><input type="radio" name="Q11" value="B">B.Elle affiche les métadonnées de img</label></li>
+									<li><label><input type="radio" name="Q11" value="C">C.Elle affiche l'image finale à l'écran </label></li>				
+									<li><label><input type="radio" name="Q11" value="D">D.Elle affiche l'image initiale à l'écran</label></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</fieldset>
+                                <fieldset>
+					 <legend>Question 12</legend>
+					<div class="question">		
+						<p id="question12">Dans le bloc de la ligne 8 à 12, le changement de l'image se fera dans la partie  :</p>
+						<!-- Utilisation de la balise pre (preformater) qui permet d'afficher le texte sans interpretation de l'html 
+                                                     et donc avec tabulation et saut de ligne -->
+						<div>
+							
+							<div class="right50">
+								<ul>
+									<li><label><input type="radio" name="Q12" value="A">A.verticale droite de l'image</label></li>
+									<li><label><input type="radio" name="Q12" value="B">B.diagonale supérieure de l'image</label></li>
+									<li><label><input type="radio" name="Q12" value="C">C.diagonale inférieure de l'image</label></li>				
+									<li><label><input type="radio" name="Q12" value="D">D.verticale gauche de l'image </label></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</fieldset>
+                                <fieldset>
+					<legend>Question 13</legend>
+					<div class="question">		
+						<p id="question13">Pour repérer une image, où se trouve l'origine des axes orthonormés : </p>
+						<!-- Utilisation de la balise pre (preformater) qui permet d'afficher le texte sans interpretation de l'html 
+                                                     et donc avec tabulation et saut de ligne -->
+						<div>
+							
+							<div class="right50">
+								<ul>
+									<li><label><input type="radio" name="Q13" value="A">A.En haut et à droite</label></li>
+									<li><label><input type="radio" name="Q13" value="B">B.En haut et à gauche</label></li>
+									<li><label><input type="radio" name="Q13" value="C">C.En bas et à droite</label></li>				
+									<li><label><input type="radio" name="Q13" value="D">D.En bas et à gauche</label></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</fieldset>
+
+                                <fieldset>
+					<legend>Question 14</legend>
+					<div class="question">		
+						<p id="question14">La méthode getpixel(x,y) permet de : </p>
+						<!-- Utilisation de la balise pre (preformater) qui permet d'afficher le texte sans interpretation de l'html 
+                                                     et donc avec tabulation et saut de ligne -->
+						<div>
+							
+							<div class="right50">
+								<ul>
+									<li><label><input type="radio" name="Q14" value="A">A.récupérer la position d'un pixel </label></li>
+									<li><label><input type="radio" name="Q14" value="B">B.récupérer les valeurs RVG (ou RGB) de tous les pixels</label></li>
+									<li><label><input type="radio" name="Q14" value="C">C.récupérer les valeurs RVB d'un pixel sélectionné</label></li>				
+									<li><label><input type="radio" name="Q14" value="D">D.modifier les valeurs du pixel sélectionné</label></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</fieldset>
+                                 <fieldset>
+ 					<legend>Question 15</legend>
+					<div class="question">		
+						<p id="question15">La méthode putpixel((x,y),(nouveau_rouge,nouveau_vert,nouveau_bleu)) permet de : </p>
+						<!-- Utilisation de la balise pre (preformater) qui permet d'afficher le texte sans interpretation de l'html 
+                                                     et donc avec tabulation et saut de ligne -->
+						<div>
+							
+							<div class="right50">
+								<ul>
+									<li><label><input type="radio" name="Q15" value="A">A. modifier la partie droite de l'image en gris</label></li>
+									<li><label><input type="radio" name="Q15" value="B">B. modifier la partie gauche de l'image en gris</label></li>
+									<li><label><input type="radio" name="Q15" value="C">C. modifier la diagonale haute de l'image en gris</label></li>				
+									<li><label><input type="radio" name="Q15" value="D">D. modifier la diagonale basse de l'image en gris </label></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</fieldset>
+                                 <fieldset>
+					<legend>Question 16</legend>
+					<div class="question">		
+						<p id="question16">Dans notre programme: tailleDiag=y*largeur_image//hauteur_image, permet de sélectionner les pixels  :</p>
+						<!-- Utilisation de la balise pre (preformater) qui permet d'afficher le texte sans interpretation de l'html 
+                                                     et donc avec tabulation et saut de ligne -->
+						<div>
+						
+							<div class="right50">
+								<ul>
+									<li><label><input type="radio" name="Q16" value="A">A. horizontaux  </label></li>
+									<li><label><input type="radio" name="Q16" value="B">B.Diagonaux bas </label></li>
+									<li><label><input type="radio" name="Q16" value="C">C.verticaux</label></li>				
+									<li><label><input type="radio" name="Q16" value="D">D.Diagonaux haut </label></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</fieldset>
+
+                                <fieldset>
+					 <legend>Question 17</legend>
+					<div class="question">		
+						<p id="question17">La méthode save() permet :</p>
+						<ul>
+							<li><label><input type="radio" name="Q17" value="A">A.d'enregistrer l'image initiale</label></li>
+							<li><label><input type="radio" name="Q17" value="B">B.d'enregistrer l'image modifiée</label></li>
+							<li><label><input type="radio" name="Q17" value="C">C.de modifier le format de l'image</label></li>				
+							<li><label><input type="radio" name="Q17" value="D">D.de modifier les métadonnées </label></li>
+						</ul>
+					</div>
+				</fieldset>
+                                 <fieldset>
+ 					<legend>Question 18</legend>
+					<div class="question">		
+						<p id="question18">A la ligne 1, l'instruction permet :</p>
+						<ul>
+							<li><label><input type="radio" name="Q18" value="A">A.de récupérer un module</label></li>
+							<li><label><input type="radio" name="Q18" value="B">B.de récupérer un sous-module </label></li>
+							<li><label><input type="radio" name="Q18" value="C">C.de récupérer une méthode</label></li>				
+							<li><label><input type="radio" name="Q18" value="D">D.de récupérer une fonction </label></li>
+						</ul>
+					</div>
+				</fieldset>
+
+                                 <fieldset>
+					<legend>Question 19</legend>
+					<div class="question">		
+						<p id="question19"> Une image en couleurs codée sur RVB avec 1 octet pour chaque couleur aura :</p>
+						<!-- Utilisation de la balise pre (preformater) qui permet d'afficher le texte sans interpretation de l'html 
+                                                     et donc avec tabulation et saut de ligne -->
+						
+							<div class="right50">
+								<ul>
+									<li><label><input type="radio" name="Q19" value="A">A.4096 couleurs possibles</label></li>
+									<li><label><input type="radio" name="Q19" value="B">B.1677216 couleurs possibles</label></li>
+									<li><label><input type="radio" name="Q19" value="C">C.65536 couleurs possibles</label></li>				
+									<li><label><input type="radio" name="Q19" value="D">D.une infinité de couleurs possibles</label></li>
+                                                                       
+								</ul>
+							</div>
+					</div>
+				</fieldset>
+                                <fieldset>
+	                                <legend>Question 20</legend>
+					 <div class="question">		
+						<p id="question20">Dans le capteur de l'appareil numérique, la transformation de la lumière en signal électrique analogique se fait grâce aux: </p>
+						<!-- Utilisation de la balise pre (preformater) qui permet d'afficher le texte sans interpretation de l'html 
+                                                     et donc avec tabulation et saut de ligne -->
+						<div>
+							
+							<div class="right50">
+								<ul>
+									<li><label><input type="radio" name="Q20" value="A">A.pixels</label></li>
+									<li><label><input type="radio" name="Q20" value="B">B.logiciels</label></li>
+									<li><label><input type="radio" name="Q20" value="C">C.photosites</label></li>				
+									<li><label><input type="radio" name="Q20" value="D">D.convertisseur analogique/numérique (CAN) </label></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</fieldset>
+
+				<p class="right">
+					<button type="button" onclick="valider()">Valider</button>
+				</p>
+			</form>			
+		</div>	
+	</body>
+</html>
+					
